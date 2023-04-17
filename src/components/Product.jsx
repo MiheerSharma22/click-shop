@@ -29,7 +29,7 @@ const Product = ( { product } ) => {
 
         {/* Product Image */}
         <div className='h-[180px] mx-[1rem] align-baseline'>
-            <img src={product.image} className='w-full h-full object-contain bg-transparent' alt='product image'/>
+            <img src={product.image} className='w-full h-full object-contain bg-transparent' alt='product'/>
         </div>
         
         {/* price and add to cart button */}
