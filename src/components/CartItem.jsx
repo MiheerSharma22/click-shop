@@ -18,7 +18,7 @@ const CartItem = ({item , index}) => {
 
         <div className={`${cart.length !== index+1 && 'border-b-2 border-gray-600 '} flex pb-[1.5rem] w-full cart-item-container`}>
             <div>
-                <img src={item.image} className=' aspect-square w-[250px] mb-[1.5rem]'/>
+                <img src={item.image} className=' aspect-square w-[250px] mb-[1.5rem]' alt='product image'/>
             </div>
 
             {/* description-container */}

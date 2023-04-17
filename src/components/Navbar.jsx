@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='w-[90%] xl:w-[75%] flex justify-between pt-[0.3rem]'>
             <Link to="/">
                 <button>
-                    <img src={logo} className='w-[70px] aspect-square'/>
+                    <img src={logo} className='w-[70px] aspect-square' alt='logo'/>
                 </button>
             </Link>
             
